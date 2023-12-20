@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8423CC5D2AF371EC000154FA /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39622AF242B50013384C /* Color+Ext.swift */; };
+		84DD39052AEFB6F80013384C /* LiveDeliveryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39042AEFB6F80013384C /* LiveDeliveryTrackerApp.swift */; };
+		84DD39072AEFB6F80013384C /* DeliveryStateUpdaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39062AEFB6F80013384C /* DeliveryStateUpdaterView.swift */; };
+		84DD39092AEFB6FA0013384C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD39082AEFB6FA0013384C /* Assets.xcassets */; };
+		84DD390C2AEFB6FA0013384C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD390B2AEFB6FA0013384C /* Preview Assets.xcassets */; };
+		84DD39322AEFB85D0013384C /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39312AEFB85D0013384C /* LiveActivityHelper.swift */; };
+		84DD39372AEFB8D00013384C /* StatusAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39362AEFB8D00013384C /* StatusAttribute.swift */; };
+		84DD39392AEFB8E40013384C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39382AEFB8E40013384C /* Status.swift */; };
+		84DD39412AEFB93A0013384C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DD39402AEFB93A0013384C /* WidgetKit.framework */; };
+		84DD39432AEFB93A0013384C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DD39422AEFB93A0013384C /* SwiftUI.framework */; };
+		84DD39462AEFB93A0013384C /* LiveDeliveryWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39452AEFB93A0013384C /* LiveDeliveryWidgetBundle.swift */; };
+		84DD39482AEFB93A0013384C /* LiveDeliveryWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39472AEFB93A0013384C /* LiveDeliveryWidgetLiveActivity.swift */; };
+		84DD394D2AEFB93B0013384C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD394C2AEFB93B0013384C /* Assets.xcassets */; };
+		84DD394F2AEFB93B0013384C /* LiveDeliveryWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84DD394B2AEFB93A0013384C /* LiveDeliveryWidget.intentdefinition */; };
+		84DD39502AEFB93B0013384C /* LiveDeliveryWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84DD394B2AEFB93A0013384C /* LiveDeliveryWidget.intentdefinition */; };
+		84DD39532AEFB93B0013384C /* LiveDeliveryWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 84DD393E2AEFB93A0013384C /* LiveDeliveryWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84DD395B2AF2412B0013384C /* StatusAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39362AEFB8D00013384C /* StatusAttribute.swift */; };
+		84DD395C2AF241310013384C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39382AEFB8E40013384C /* Status.swift */; };
+		84DD395D2AF241340013384C /* LiveActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39312AEFB85D0013384C /* LiveActivityHelper.swift */; };
+		84DD395F2AF241F60013384C /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD395E2AF241F60013384C /* StatusView.swift */; };
+		84DD39632AF242B50013384C /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD39622AF242B50013384C /* Color+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DD39122AEFB6FA0013384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD38F92AEFB6F80013384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DD39002AEFB6F80013384C;
+			remoteInfo = LiveDeliveryTracker;
+		};
+		84DD391C2AEFB6FA0013384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD38F92AEFB6F80013384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DD39002AEFB6F80013384C;
+			remoteInfo = LiveDeliveryTracker;
+		};
+		84DD39512AEFB93B0013384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD38F92AEFB6F80013384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DD393D2AEFB93A0013384C;
+			remoteInfo = LiveDeliveryWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84DD39572AEFB93B0013384C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84DD39532AEFB93B0013384C /* LiveDeliveryWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84DD39012AEFB6F80013384C /* LiveDeliveryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDeliveryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD39042AEFB6F80013384C /* LiveDeliveryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDeliveryTrackerApp.swift; sourceTree = "<group>"; };
+		84DD39062AEFB6F80013384C /* DeliveryStateUpdaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryStateUpdaterView.swift; sourceTree = "<group>"; };
+		84DD39082AEFB6FA0013384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DD390B2AEFB6FA0013384C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DD39112AEFB6FA0013384C /* LiveDeliveryTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDeliveryTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD391B2AEFB6FA0013384C /* LiveDeliveryTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDeliveryTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD392E2AEFB79C0013384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84DD39312AEFB85D0013384C /* LiveActivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityHelper.swift; sourceTree = "<group>"; };
+		84DD39362AEFB8D00013384C /* StatusAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusAttribute.swift; sourceTree = "<group>"; };
+		84DD39382AEFB8E40013384C /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		84DD393E2AEFB93A0013384C /* LiveDeliveryWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveDeliveryWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD39402AEFB93A0013384C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		84DD39422AEFB93A0013384C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		84DD39452AEFB93A0013384C /* LiveDeliveryWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDeliveryWidgetBundle.swift; sourceTree = "<group>"; };
+		84DD39472AEFB93A0013384C /* LiveDeliveryWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDeliveryWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		84DD394B2AEFB93A0013384C /* LiveDeliveryWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LiveDeliveryWidget.intentdefinition; sourceTree = "<group>"; };
+		84DD394C2AEFB93B0013384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DD394E2AEFB93B0013384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD395E2AF241F60013384C /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		84DD39622AF242B50013384C /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DD38FE2AEFB6F80013384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD390E2AEFB6FA0013384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD39182AEFB6FA0013384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD393B2AEFB93A0013384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD39432AEFB93A0013384C /* SwiftUI.framework in Frameworks */,
+				84DD39412AEFB93A0013384C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DD38F82AEFB6F80013384C = {
+			isa = PBXGroup;
+			children = (
+				84DD39032AEFB6F80013384C /* LiveDeliveryTracker */,
+				84DD39442AEFB93A0013384C /* LiveDeliveryWidget */,
+				84DD393F2AEFB93A0013384C /* Frameworks */,
+				84DD39022AEFB6F80013384C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DD39022AEFB6F80013384C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39012AEFB6F80013384C /* LiveDeliveryTracker.app */,
+				84DD39112AEFB6FA0013384C /* LiveDeliveryTrackerTests.xctest */,
+				84DD391B2AEFB6FA0013384C /* LiveDeliveryTrackerUITests.xctest */,
+				84DD393E2AEFB93A0013384C /* LiveDeliveryWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DD39032AEFB6F80013384C /* LiveDeliveryTracker */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39042AEFB6F80013384C /* LiveDeliveryTrackerApp.swift */,
+				84DD39352AEFB8B40013384C /* Models */,
+				84DD39612AF242920013384C /* Extensions */,
+				84DD39302AEFB8430013384C /* Helper */,
+				84DD392F2AEFB8360013384C /* Views */,
+				84DD392E2AEFB79C0013384C /* Info.plist */,
+				84DD39082AEFB6FA0013384C /* Assets.xcassets */,
+				84DD390A2AEFB6FA0013384C /* Preview Content */,
+			);
+			path = LiveDeliveryTracker;
+			sourceTree = "<group>";
+		};
+		84DD390A2AEFB6FA0013384C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84DD390B2AEFB6FA0013384C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84DD392F2AEFB8360013384C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39062AEFB6F80013384C /* DeliveryStateUpdaterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84DD39302AEFB8430013384C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39312AEFB85D0013384C /* LiveActivityHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84DD39352AEFB8B40013384C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39362AEFB8D00013384C /* StatusAttribute.swift */,
+				84DD39382AEFB8E40013384C /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DD393F2AEFB93A0013384C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39402AEFB93A0013384C /* WidgetKit.framework */,
+				84DD39422AEFB93A0013384C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DD39442AEFB93A0013384C /* LiveDeliveryWidget */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39452AEFB93A0013384C /* LiveDeliveryWidgetBundle.swift */,
+				84DD39472AEFB93A0013384C /* LiveDeliveryWidgetLiveActivity.swift */,
+				84DD39602AF242660013384C /* Views */,
+				84DD394B2AEFB93A0013384C /* LiveDeliveryWidget.intentdefinition */,
+				84DD394C2AEFB93B0013384C /* Assets.xcassets */,
+				84DD394E2AEFB93B0013384C /* Info.plist */,
+			);
+			path = LiveDeliveryWidget;
+			sourceTree = "<group>";
+		};
+		84DD39602AF242660013384C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84DD395E2AF241F60013384C /* StatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84DD39612AF242920013384C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84DD39622AF242B50013384C /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DD39002AEFB6F80013384C /* LiveDeliveryTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD39252AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTracker" */;
+			buildPhases = (
+				84DD38FD2AEFB6F80013384C /* Sources */,
+				84DD38FE2AEFB6F80013384C /* Frameworks */,
+				84DD38FF2AEFB6F80013384C /* Resources */,
+				84DD39572AEFB93B0013384C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DD39522AEFB93B0013384C /* PBXTargetDependency */,
+			);
+			name = LiveDeliveryTracker;
+			productName = LiveDeliveryTracker;
+			productReference = 84DD39012AEFB6F80013384C /* LiveDeliveryTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DD39102AEFB6FA0013384C /* LiveDeliveryTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD39282AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTrackerTests" */;
+			buildPhases = (
+				84DD390D2AEFB6FA0013384C /* Sources */,
+				84DD390E2AEFB6FA0013384C /* Frameworks */,
+				84DD390F2AEFB6FA0013384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DD39132AEFB6FA0013384C /* PBXTargetDependency */,
+			);
+			name = LiveDeliveryTrackerTests;
+			productName = LiveDeliveryTrackerTests;
+			productReference = 84DD39112AEFB6FA0013384C /* LiveDeliveryTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DD391A2AEFB6FA0013384C /* LiveDeliveryTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD392B2AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTrackerUITests" */;
+			buildPhases = (
+				84DD39172AEFB6FA0013384C /* Sources */,
+				84DD39182AEFB6FA0013384C /* Frameworks */,
+				84DD39192AEFB6FA0013384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DD391D2AEFB6FA0013384C /* PBXTargetDependency */,
+			);
+			name = LiveDeliveryTrackerUITests;
+			productName = LiveDeliveryTrackerUITests;
+			productReference = 84DD391B2AEFB6FA0013384C /* LiveDeliveryTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84DD393D2AEFB93A0013384C /* LiveDeliveryWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD39542AEFB93B0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryWidgetExtension" */;
+			buildPhases = (
+				84DD393A2AEFB93A0013384C /* Sources */,
+				84DD393B2AEFB93A0013384C /* Frameworks */,
+				84DD393C2AEFB93A0013384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveDeliveryWidgetExtension;
+			productName = LiveDeliveryWidgetExtension;
+			productReference = 84DD393E2AEFB93A0013384C /* LiveDeliveryWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DD38F92AEFB6F80013384C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84DD39002AEFB6F80013384C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					84DD39102AEFB6FA0013384C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 84DD39002AEFB6F80013384C;
+					};
+					84DD391A2AEFB6FA0013384C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 84DD39002AEFB6F80013384C;
+					};
+					84DD393D2AEFB93A0013384C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 84DD38FC2AEFB6F80013384C /* Build configuration list for PBXProject "LiveDeliveryTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DD38F82AEFB6F80013384C;
+			productRefGroup = 84DD39022AEFB6F80013384C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DD39002AEFB6F80013384C /* LiveDeliveryTracker */,
+				84DD39102AEFB6FA0013384C /* LiveDeliveryTrackerTests */,
+				84DD391A2AEFB6FA0013384C /* LiveDeliveryTrackerUITests */,
+				84DD393D2AEFB93A0013384C /* LiveDeliveryWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DD38FF2AEFB6F80013384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD390C2AEFB6FA0013384C /* Preview Assets.xcassets in Resources */,
+				84DD39092AEFB6FA0013384C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD390F2AEFB6FA0013384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD39192AEFB6FA0013384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD393C2AEFB93A0013384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD394D2AEFB93B0013384C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DD38FD2AEFB6F80013384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD39072AEFB6F80013384C /* DeliveryStateUpdaterView.swift in Sources */,
+				8423CC5D2AF371EC000154FA /* Color+Ext.swift in Sources */,
+				84DD39052AEFB6F80013384C /* LiveDeliveryTrackerApp.swift in Sources */,
+				84DD39322AEFB85D0013384C /* LiveActivityHelper.swift in Sources */,
+				84DD39502AEFB93B0013384C /* LiveDeliveryWidget.intentdefinition in Sources */,
+				84DD39372AEFB8D00013384C /* StatusAttribute.swift in Sources */,
+				84DD39392AEFB8E40013384C /* Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD390D2AEFB6FA0013384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD39172AEFB6FA0013384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD393A2AEFB93A0013384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD394F2AEFB93B0013384C /* LiveDeliveryWidget.intentdefinition in Sources */,
+				84DD395F2AF241F60013384C /* StatusView.swift in Sources */,
+				84DD39482AEFB93A0013384C /* LiveDeliveryWidgetLiveActivity.swift in Sources */,
+				84DD39462AEFB93A0013384C /* LiveDeliveryWidgetBundle.swift in Sources */,
+				84DD395B2AF2412B0013384C /* StatusAttribute.swift in Sources */,
+				84DD39632AF242B50013384C /* Color+Ext.swift in Sources */,
+				84DD395C2AF241310013384C /* Status.swift in Sources */,
+				84DD395D2AF241340013384C /* LiveActivityHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DD39132AEFB6FA0013384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DD39002AEFB6F80013384C /* LiveDeliveryTracker */;
+			targetProxy = 84DD39122AEFB6FA0013384C /* PBXContainerItemProxy */;
+		};
+		84DD391D2AEFB6FA0013384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DD39002AEFB6F80013384C /* LiveDeliveryTracker */;
+			targetProxy = 84DD391C2AEFB6FA0013384C /* PBXContainerItemProxy */;
+		};
+		84DD39522AEFB93B0013384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DD393D2AEFB93A0013384C /* LiveDeliveryWidgetExtension */;
+			targetProxy = 84DD39512AEFB93B0013384C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84DD39232AEFB6FA0013384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DD39242AEFB6FA0013384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DD39262AEFB6FA0013384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveDeliveryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDeliveryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DD39272AEFB6FA0013384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveDeliveryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDeliveryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DD39292AEFB6FA0013384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveDeliveryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveDeliveryTracker";
+			};
+			name = Debug;
+		};
+		84DD392A2AEFB6FA0013384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveDeliveryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveDeliveryTracker";
+			};
+			name = Release;
+		};
+		84DD392C2AEFB6FA0013384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveDeliveryTracker;
+			};
+			name = Debug;
+		};
+		84DD392D2AEFB6FA0013384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveDeliveryTracker;
+			};
+			name = Release;
+		};
+		84DD39552AEFB93B0013384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDeliveryWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveDeliveryWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTracker.LiveDeliveryWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DD39562AEFB93B0013384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94VBA5K634;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDeliveryWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveDeliveryWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.widgetkitlearning.LiveDeliveryTracker.LiveDeliveryWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DD38FC2AEFB6F80013384C /* Build configuration list for PBXProject "LiveDeliveryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD39232AEFB6FA0013384C /* Debug */,
+				84DD39242AEFB6FA0013384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD39252AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD39262AEFB6FA0013384C /* Debug */,
+				84DD39272AEFB6FA0013384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD39282AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD39292AEFB6FA0013384C /* Debug */,
+				84DD392A2AEFB6FA0013384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD392B2AEFB6FA0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD392C2AEFB6FA0013384C /* Debug */,
+				84DD392D2AEFB6FA0013384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD39542AEFB93B0013384C /* Build configuration list for PBXNativeTarget "LiveDeliveryWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD39552AEFB93B0013384C /* Debug */,
+				84DD39562AEFB93B0013384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DD38F92AEFB6F80013384C /* Project object */;
+}
